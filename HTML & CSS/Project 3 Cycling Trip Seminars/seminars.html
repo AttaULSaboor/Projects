@@ -1,0 +1,204 @@
+<!-- I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others -->
+
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<meta charset="UTF8">
+			<!-- Author: Atta UL Saboor, 000395780-->
+			<title>Cycling Trip Seminars</title>
+			<link rel="stylesheet" type="text/css" href="css/seminars.css" >
+			<style>
+			body{
+				border-bottom:2px solid black;
+			}
+			#main{
+				width:780px;
+				margin-left: 50px;
+				margin-right:50px;
+			}
+			.container1{
+				margin-left:17em;
+				width:600px;
+				border-collapse: collapse;
+				border-style: hidden;
+			}
+			.container1 th{
+				border-style: hidden;
+				padding-bottom:20px;
+			}
+			
+			.container1 caption{
+				text-align: left;
+			}
+			.container2 th{
+				padding:20px 20px;
+			}
+			.begcyc{
+				background-color:lightskyblue;
+				padding: 1px 5px;
+				margin-right:5px;
+			}
+			.ldc{
+				background-color:#ADFF2F;
+				padding: 1px 5px;
+				margin-right:5px;
+				vertical-align:top;
+			}
+			.br{
+				background-color:#BA55D3;
+				padding: 1px 5px;
+				margin-right:5px;
+			}
+			.tp{
+				background-color:#FFB6C1;
+				padding: 1px 5px;
+				margin-right:5px;
+				vertical-align:top;
+			}
+			.container2 thead th{
+				padding:8px;
+				background-color:#888888;
+				color:white;
+			}
+			.container2{
+				margin-left: 20em;
+				margin-right:20em;
+				border-collapse: collapse;
+				width:auto
+			}
+			th{
+				border:1px solid black;
+			}
+			td{
+				border:1px solid black;
+				padding: 5px 10px;
+				}
+			tbody td.bc {
+				background-color:lightskyblue;
+			}
+			tbody td.bic {
+				background-color:#BA55D3;
+				vertical-align:top;
+			}
+			tbody td.ldc {
+				background-color:#ADFF2F;
+			}
+			tbody td.tp {
+				background-color:#FFB6C1;
+			}
+			tbody th{
+				background-color:lightskyblue;
+			}
+			.res {
+				background-image:url(images/dust.jpg);
+				text-align:center;
+			}
+			.sched{
+				text-align:right;
+				caption-side:bottom;
+			}
+			</style>
+		</head>
+				<header>
+					<div class="container">
+						<div class="cell cell-1">
+							<h1>Cycling Trip Seminars</h1>
+						</div>
+						<div class="cell cell-2">
+							<div class="nav">
+								<a href="reviews.html">Reviews</a>
+							</div>
+							<div class="nav">
+								<a href="seminars.html">Seminars</a>
+							</div>
+						</div>
+					</div>
+				</header>
+		<body>
+		<div id="main">
+			<table class="container1">
+					<caption><strong>Legend:</strong></caption>
+					<thead>
+						<tr>
+							<th><span class="begcyc"></span>Begineer Cycling</th>
+							<th><span class="ldc"></span>Long Distance Cycling</th>
+							<th><span class="br"></span>Bicycle Repair</th>
+							<th><span class="tp"></span>Trip Planning</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<table class="container2">
+				<caption class="sched">Schedule is subject to change</caption>
+				<thead>
+					<tr>
+						<th id="thDay">Day</th>
+						<th id="tm1">7 am - 9 am</th>
+						<th id="tm2">9 am - 11 am</th>
+						<th id="tm3">11 am - 12 pm</th>
+						<th id="tm4">12 pm - 2 pm</th>
+						<th id="tm5">2 pm - 4 pm</th>
+						<th id="tm6">6 pm - 8 pm</th>
+						<th id="tm7">8 pm - 10 pm</th>
+					</tr>
+				</thead>	
+					<tbody>
+						<tr class="Mon">
+							<th>Monday</th>
+							<td class="res"colspan="8">Reserved for groups</td>
+						</tr>
+						<tr class="tues">
+							<th>Tuesday</th>
+							<td class="bic">Bicycle Repair</td>
+							<td class="bc" colspan="4">Beginner Cycling</td>
+							<td class="tp" colspan="2">Trip Planning</td>
+						</tr>
+						<tr class="wed">
+							<th>Wednessday</th>
+							<td class="ldc"rowspan="2">Long Distance Cycling</td>
+							<td></td>
+							<td class="bc">Begineer Cycling</td>
+							<td class="tp" rowspan="2">Trip Planning for Asia</td>
+							<td class="bic" rowspan="3" colspan="2">Bicycle Repair</td>
+							<td class="ldc" rowspan="2">Long Distance Cycling Part2</td>
+						</tr>
+						<tr class="thus">
+							<th>Thursday</th>
+							<td class="bc">Begineer Cycling</td>
+						</tr>
+						<tr class="fri">
+							<th>Friday</th>
+							<td class="tp" rowspan="4">Trip Planning for Europe</td>
+							<td></td>
+							<td class="bc">Begineer Cycling</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="sat">
+							<th>Saturday</th>
+							<td class="bic" rowspan="2" colspan="3">Bicycle Repair</td>
+							<td class="bc">Beginner Cycling</td>
+							<td class="ldc" rowspan="2" colspan="3">Long Distance Cycling part 1 Part 2</td>
+						</tr>
+						<tr class="sun">
+							<th>Sunday</th>
+							<td></td>
+						</tr>
+						<tr class="Holid">
+							<th>Holiday</th>
+							<td></td>
+							<td class="ldc">Long Distance Cycling</td>
+							<td class="res" colspan="5">No Seminars</td>
+						</tr>
+					</tbody>
+					
+			</table>	
+		</body>  
+		  <footer>	
+
+			</footer>
+			
+		
+	</html>

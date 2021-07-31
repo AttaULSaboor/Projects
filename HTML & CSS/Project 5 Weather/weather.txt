@@ -1,0 +1,14 @@
+Forecasting
+Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location. Human beings have attempted to predict the weather informally for millennia, and formally since at least the nineteenth century.[27] Weather forecasts are made by collecting quantitative data about the current state of the atmosphere and using scientific understanding of atmospheric processes to project how the atmosphere will evolve.
+
+Once an all-human endeavor based mainly upon changes in barometric pressure, current weather conditions, and sky condition, forecast models are now used to determine future conditions. On the other hand, human input is still required to pick the best possible forecast model to base the forecast upon, which involve many disciplines such as pattern recognition skills, teleconnections, knowledge of model performance, and knowledge of model biases.
+
+Clouds
+In meteorology, a cloud is an aerosol consisting of a visible mass of minute liquid droplets, frozen crystals, or other particles suspended in the atmosphere of a planetary body or similar space. Water or various other chemicals may compose the droplets and crystals. On Earth, clouds are formed as a result of saturation of the air when it is cooled to its dew point, or when it gains sufficient moisture (usually in the form of water vapor) from an adjacent source to raise the dew point to the ambient temperature.
+
+Cloud Types
+Stratiform
+Cirriform
+Stratocumuliform
+Cumuliform
+Cumulonimbiform

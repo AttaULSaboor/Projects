@@ -1,0 +1,155 @@
+<!-- I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others -->
+
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<meta charset="UTF8">
+			<!-- Author: Atta UL Saboor, 000395780-->
+			<title>Sandy and Leslie's Apartment</title>
+			<link rel="stylesheet" type="text/css" href="apartment_layout.css" >
+			<link rel="stylesheet" type="text/css" href="mobile.css" >
+			<style>
+			bedroom1{
+				padding-bottom:10px;
+			}
+			h2{
+				background-color:lightskyblue;
+				padding:10px;
+				color:darkblue;
+				text-align:center;
+				margin-bottom:10px;
+				margin-right:20px;
+				margin-left:20px;
+			}
+			.bed1{
+				text-align:center;
+				margin-bottom:10px;
+			}
+			.aptservices h2{
+				text-align:left;
+			}
+			.tableservice{
+				border-collapse:collapse;
+				border: 1px solid black;
+				margin-top:15px;
+				margin-left: 20px;
+			}
+			th{
+				border:1px solid black;
+				padding-left:5px;
+				padding-right:8px;
+				text-align:left;
+			}
+			td{
+				border:1px solid black;
+				padding-left:5px;
+				padding-right:25px;
+			}
+			.tableservice td.gym{
+				padding-left:5px;
+				padding-bottom:15px;
+				padding-top:15px;
+				text-align:left;
+				padding-right:30px;
+			}
+			.tableservice td.pool{
+				padding-left:5px;
+				padding-bottom:15px;
+				padding-top:15px;
+				text-align:left;
+				padding-right:30px;
+			}
+			.tableservice td.laundry{
+				padding-left:5px;
+				padding-bottom:5px;
+				padding-top:5px;
+				text-align:left;
+				padding-right:30px;
+			}
+			.tableservice th.service{
+				background-color:lightgray;
+				padding:5px 5px 5px;
+				text-align:left;
+			}
+			.tableservice td.people{
+				background-color:#FFFFCC;
+			}
+			footer{
+				text-align:left;
+				margin-left:20px;
+				margin-top:10px;
+			}
+			</style>
+		</head>
+				<header>
+					<div class="head1">
+						<h1>Sandy and Leslie's Apartment</h1>
+					</div>
+					<div class="head2">
+						<p>Click a room for a detailed view.</p>
+					<div>
+					<div class="headimag">
+						<img src="Images\apartmentfloorplan.jpg" alt="Apartment Floor Plan" usemap="#floormap">
+						<map name="floormap">
+							<area shape="rect" coords="194,3,48,156" alt="Bedroom 1" href="bedroom1.html">
+							<area shape="rect" coords="352,2,206,155" alt="bedroom 2" href="bedroom2.html">
+							<area shape="circle" coords="411,139,45" alt="Dining Room" href="diningroom.html">
+							<area shape="poly" coords="408,193,470,174,529,170,552,394,420,394" alt="Living Room" href="livingroom.html">
+							<area shape="rect" coords="397,233,251,396" alt="Kitchen" href="kitchen.html">
+						</map>
+					</div>
+				</header>
+					<div class="nav">
+						 <a href="apartment.html">Apartment</a>
+						<b>|</b><a href="bedroom1.html">Bedroom 1</a>
+						<b>|</b><a href="bedroom2.html">Bedroom 2</a>
+						<b>|</b><a href="diningroom.html">Dining Room</a>
+						<b>|</b><a href="kitchen.html">Kitchen</a>
+						<b>|</b><a href="livingroom.html">Living Room</a>
+					</div>
+		<body>
+			<div class="bedroom1">
+				<div class="bed1">
+					<h2>Kitchen Detail</h2>
+					<img src="images\kitchen_lg.jpg" alt="Kitchen">
+				</div>
+				<div class="aptservices">
+					<h2>Apartment services:</h2>
+					<table class="tableservice">
+						<thead>
+							<tr>
+								<th class="service">Service</th>
+								<th class="service">Day/Hours</th>
+							</tr>
+						</thead>
+							<tbody>
+								<tr class="gym">
+									<td class="gym">Gym</th>
+									<td class="monday" rowspan="2">Monday-Friday 6am-10pm
+															  </br>Saturday 8am-8pm
+															  </br>Sunday 8am-5pm
+									</td>
+								</tr>	
+								<tr class="pool">
+									<td class="pool">Pool</th>
+								</tr>
+								<tr class="Lundry">
+									<td class="laundry">Laundry</th>
+									<td class="days">24/7</td>
+								</tr>
+								<tr class="people">
+									<td class="people" colspan="2">Please do not allow people you do not know to use these facilities.</th>
+								</tr>
+							</tbody>
+					</table>
+				</div>
+			</div>					
+		</body>  
+			<footer class="footer">	
+				<p>For more information contact: <a href="mailto:apartment@example.com">apartment@example.com</a></p>
+				</br>
+				<p>©Sandy and Leslie 2020</p>
+			</footer>
+	</html>

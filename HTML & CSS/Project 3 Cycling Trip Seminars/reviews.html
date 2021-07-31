@@ -1,0 +1,187 @@
+<!-- I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others -->
+
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<meta charset="UTF8">
+			<!-- Author: Atta UL Saboor, 000395780-->
+			<title>Cycling Trip Seminars</title>
+			<link rel="stylesheet" type="text/css" href="css/seminars.css" >
+			<style>
+				main{
+					border-bottom:1px solid black;
+					margin-bottom:10px;
+				}
+				.contain{
+					margin-left:10em;
+					margin-right:10em;
+					background-color:#4681A4;
+					border:2px solid black;
+				}
+				.contain ul li{
+					list-style-type:none;
+					margin-left:10px;
+				}
+				fieldset{
+					margin:20px 20px;
+					border:2px solid white;
+					padding-bottom:10px;
+				}
+				.forminfo{
+					margin-top:20px;
+					padding-bottom:10px;
+				}
+				.forminfo label{
+					display:inline-block;
+					width: 140px;
+					text-align:right;
+				}
+				input {
+					background-color:#ffffe6;
+				}
+				legend{
+					color:white;
+					margin-left:5px;
+					padding-left:10px;
+					padding-right:10px;
+				}
+				#yourrating{
+					padding-top:10px;
+				}
+				.sendreview{
+					background-color:#ffffe6;
+					margin-top:10px;
+					margin-bottom:20px;
+					margin-left:20px;
+				}
+				.screenshot{
+					margin-top:10px;
+					margin-bottom:10px;
+					text-align:center;
+				}
+			</style>
+		</head>
+				<header>
+					<div class="container">
+						<div class="cell cell-1">
+							<h1>Cycling Trip Seminars</h1>
+						</div>
+						<div class="cell cell-2">
+							<div class="nav">
+								<a href="reviews.html">Reviews</a>
+							</div>
+							<div class="nav">
+								<a href="seminars.html">Seminars</a>
+							</div>
+						</div>
+					</div>
+				</header>
+		<body>
+			<main>
+				<div class="contain">
+					<div class="fillinfo">
+						<form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+							<fieldset class="Aboutyou">
+								<legend>About you (Optional) </legend>
+								<ul>
+									<li>
+										<label>I usually prefer to trips this time of year (select all that apply):</label>
+									</li>
+									<li>
+										<select Name="pref" size="4">
+											<option>Winter</option>
+											<option>Spring</option>
+											<option>Summer</option>
+											<option>Fall</option>
+										</select>
+									</li>
+								</ul>
+								<ul class="forminfo">
+									<li>
+										<label>First Name</label> <input type="text" name="First name" maxlength="20"/>
+									</li>
+									<li>
+										<label>Last Name</label> <input type="text" name="Last name" maxlength="20"/>
+									</li>
+									<li>
+										<label>Phone Number</label>      
+										<input type="tel" name="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12"/>
+									</li>
+									<li>
+										<label> Email Address</label> <input type="email" name = "emailaddress" placeholder="name@example.com" maxlength="40"/>
+									</li>
+								</ul>		
+							</fieldset>
+							<fieldset class="tripreview">
+								<legend>Trip Review</legend>
+								<ul>
+									<li>
+										<select name="Trip">
+											<option value="Nova Scotia Cabot Trail" selected>Nova Scotia cabot Trail</option>
+											<option value="Alberta Rural">Alberta Rural</option>
+											<option value="B.C.Coast">B.C Coast</option>
+											<option value="Ontario Lake Superior">Ontario Lake Superior</option>
+											<option value="PEI">PEI</option>
+										</select>
+										<select name="Duration">
+											<option value="5 Days" selected>5 Days</option>
+											<option value="7 Days">7 Days</option>
+											<option value="10 Days">10 Days</option>
+											<option value="14 Days">14 Days</option>
+										</select>
+									</li>
+									<li id="yourrating">
+										<label>Your rating:</label>
+									</li>
+									<li>
+										<input type="radio" name="Rating	" value="1">
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+									</li>
+									<li>
+										<input type="radio" name="Rating" value="2">
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+									</li>
+									<li>
+										<input type="radio" name="Rating" value="3">
+										<image src="images/wheel_sm.jpg"/>
+										<image src="images/wheel_sm.jpg"/>
+									</li>
+									<li>
+										<input type="radio" name="Rating" value="4">
+										<image src="images/wheel_sm.jpg"/>
+									</li>
+									<li>
+										<label>Comments</label>
+									</li>
+									<li>
+										<textarea name="Coments"rows="7" cols="65" ></textarea>
+									</li>
+								</ul>
+							</fieldset>
+							<fieldset class="visittrips">
+								<legend>I would be interest in these trips:(checks all that apply)</legend>
+								<ul>
+									<li><input name="Interested" type="checkbox" value="Sea or Lake Coast">Coast</li>
+									<li><input name="Interested" type="checkbox" value="Rural">Rural</li>
+									<li><input name="Interested" type="checkbox" value="Mountains" checked>Mountain</li>
+									<li><input name="Interested" type="checkbox" value="Other(Please specify)">Other<input name="Otherdestination" type="text" name="other"></li>
+								</ul>
+							</fieldset>
+							<input class="sendreview" type="submit" value="SEND REVIEW"/>
+							<input class="sendreview" type="submit" value="CANCEL"/>
+						</form>
+					</div>
+				</div>
+				<div class="screenshot">
+					<p><img src="images/sendreview.png" alt="screenshot"/></p>
+				</div>
+			</main>
+		</body> 
+	</html>

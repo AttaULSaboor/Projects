@@ -1,0 +1,37 @@
+/* I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others */
+
+*{
+	margin:0;
+	padding:0;
+}
+h1 {
+	color:darkblue;
+	text-align:center;
+	padding-bottom:30px;
+	padding-top:10px;
+}
+.head2 {
+	text-align:center;
+}
+.headimag {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.nav {
+	 text-align:center;
+	 display:inline-block;
+	 margin-left:33em;
+	 margin-right:33em;
+	 padding-bottom:20px;
+}
+.nav a{
+	text-decoration:underline;
+	padding-left:5px;
+}
+footer{
+	text-align:center;
+	margin:50px;
+}

@@ -1,0 +1,88 @@
+/* I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others */
+
+body{ 
+	margin-left:10em;
+	margin-right:10em;
+	margin-bottom:5em;
+}
+nav{
+	background-color: #fbefb3;
+	text-align: center;
+	height: 25px;
+	padding-top: 1%;
+	display: block;
+}
+nav a{
+	text-decoration: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #14ab3f;	
+}
+nav a:hover {
+	background-color: #ec834a;
+	width: 80px;
+}
+.image_Container {
+	text-align: center;
+	font-size: 40px;
+	color: #14ab3f;
+	margin-top: 15px;
+	width: 100%;
+	
+}
+.table_first {
+	width: 450px;
+}
+.first_list {
+	list-style-image: url('../images/greenarrow.png');
+}
+.first_list li{
+	margin-top:10px;
+}
+h1,h2{
+	color: #14ab3f;
+}
+.img1 img {
+	float: right;
+}
+.doubleUnderline {
+	text-decoration: underline;
+	border-bottom: 1px solid #000;
+}
+.gold{
+	color:#b8860b;
+}
+ul.a{
+	list-style-type: circle;
+}
+ol.b{
+	list-style-type: upper-roman;
+}
+.link {
+	background-color: #fbefb3;
+	text-align: center;
+	height: 10px;
+}
+.link a{
+	text-decoration: none;
+	color: blue;	
+}
+.footer{
+background-image: url('../images/ricepaper.png');
+background-position: left bottom;
+height: 150px;
+width: 100%;
+}
+.contact{
+	font-size: 25px;
+	color: #14ab3f;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.footer li{
+	list-style-type:none;
+	text-align: center;
+}
+	

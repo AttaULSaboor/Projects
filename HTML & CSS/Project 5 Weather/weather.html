@@ -1,0 +1,347 @@
+<!-- I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others -->
+
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF8">
+		<!-- Author: Atta UL Saboor, 000395780 -->
+		<title>Weather</title>
+		<link rel = "stylesheet" type = "text/css" href = "weather.css">
+		<style>
+			
+		
+			/* general */
+			
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				font-family: Arial, Helvetica, Verdana, sans-serif;
+			}
+			
+			h1, h2, p {
+				margin: 15px 0;
+				padding-left: 10px;
+			}
+			
+			h2 {
+				background-color: #fdb924;
+			
+			}
+			
+			h3 {
+				border-bottom: 1px solid black;
+				margin-bottom: 10px;
+			}
+			
+			
+			/* main */
+			
+			main {
+				display: grid;
+				grid-template-columns: auto 250px;
+				grid-gap: 20px;
+				width: 80%;
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+			
+			
+			#forecasting {
+				grid-column: 1;
+			}
+			
+			#forecast {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				grid-gap: 2px;
+			}
+			
+			#day{
+				border: 1px solid #dcdcdc;
+				padding: 5px;
+			}
+			
+			#day img{
+				height: 120px;
+				width: 120px;
+			}
+			
+			.high {
+				font-size: 2em;
+				font-weight: bold;
+			}	
+			
+			.low {
+				font-size: 1.5em;
+	
+			}
+			
+			#clouds {
+				grid-column: 2;
+				background-image: url(images/background/clouds.jpg);
+				
+			}
+			
+			#clouds li{
+				list-style-type: lower-roman;
+				margin-left: 25px;
+			}
+			
+			#wildweather{
+				grid-column: 1 / span 2;
+			}
+			
+			#weathergallery {
+				
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				
+				
+			}
+			
+			.weatherpic {
+				width: 200px;
+				border: 1px solid #808080;
+				text-align: center;
+				margin: 20px;
+			}
+			
+			
+			
+		
+		
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href = "#">Today's Weather</a></li>
+				<li><a href = "#">Clouds</a></li>
+				<li><a href = "#">Wild Weather</a></li>
+				<li><a href = "#">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<header>
+			<img src = "images/logos/weathernow.png" id = "headerimg" alt = "weather now logo">
+			<div id = "socialheader">
+				<a href = "http://www.facebook.com"><img src = "images/socialmedia/facebook32.png"></a>
+				<a href = "http://www.twitter.com"><img src = "images/socialmedia/twitter32.png"></a>
+				<a href = "mailto:weather@example.com"><img src = "images/socialmedia/emailat32.png"></a>
+			</div>
+			
+		
+		</header>
+		
+		<main>
+			<div id = "forecasting">
+				<h2>Forecast</h2>
+				
+				<div id = "forecast">
+					<div id = "day">
+						<h3>Today</h3>
+						<img src = "images/weathericons/cloud.png" alt = "cloudy">
+						<span class = "high">
+						15&deg;C
+						</span>
+						<span class = "low">
+						/8&deg;C
+						</span>
+						<p>
+						Cloudy
+						</p>
+					</div>
+				
+					<div id = "day">
+						<h3>Tomorrow</h3>
+						<img src = "images/weathericons/suncloudstorm.png" alt = "cloudy and storm">
+						<span class = "high">
+						18&deg;C
+						</span>
+						<span class = "low">
+						/4&deg;C
+						</span>
+						<p>
+						Cloudy with Thunderstorm in the morning
+						</p>
+					</div>
+				
+					<div id = "day">
+						<h3>Friday</h3>
+						<img src = "images/weathericons/rain.png" alt = "rain">
+						<span class = "high">
+						12&deg;C
+						</span>
+						<span class = "low">
+						/6&deg;C
+						</span>
+						<p>
+						Rainy all day
+						</p>
+					</div>
+					
+					<div id = "day">
+						<h3>Saturday</h3>
+						<img src = "images/weathericons/suncloud.png" alt = "sun and cloudy">
+						<span class = "high">
+						21&deg;C
+						</span>
+						<span class = "low">
+						/10&deg;C
+						</span>
+						<p>
+						Sun with clouds
+						</p>
+					</div>
+					
+					<div id = "day">
+						<h3>Sunday</h3>
+						<img src = "images/weathericons/suncloud.png" alt = "sun and cloudy">
+						<span class = "high">
+						24&deg;C
+						</span>
+						<span class = "low">
+						/12&deg;C
+						</span>
+						<p>
+						Sun with clouds
+						</p>
+					</div>
+				
+				</div><!-- end forecast -->
+				
+				<h2>Forecasting</h2>
+				
+				<p>
+				Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location. Human beings have attempted to predict the weather informally for millennia, and formally since at least the nineteenth century.[27] Weather forecasts are made by collecting quantitative data about the current state of the atmosphere and using scientific understanding of atmospheric processes to project how the atmosphere will evolve.
+				</p>
+				
+				<p>
+				Once an all-human endeavor based mainly upon changes in barometric pressure, current weather conditions, and sky condition, forecast models are now used to determine future conditions. On the other hand, human input is still required to pick the best possible forecast model to base the forecast upon, which involve many disciplines such as pattern recognition skills, teleconnections, knowledge of model performance, and knowledge of model biases.
+				</p>
+			
+			</div><!-- end forecasting -->
+			<div id = "clouds">
+				<h2>Clouds</h2>
+				
+				<p>
+				In meteorology, a cloud is an aerosol consisting of a visible mass of minute liquid droplets, frozen crystals, or other particles suspended in the atmosphere of a planetary body or similar space. Water or various other chemicals may compose the droplets and crystals. On Earth, clouds are formed as a result of saturation of the air when it is cooled to its dew point, or when it gains sufficient moisture (usually in the form of water vapor) from an adjacent source to raise the dew point to the ambient temperature. 
+				</p>
+				
+				<h2>Cloud Types</h2>
+				
+				<ol>
+					<li>Stratiform</li>
+					<li>Cirriform</li>
+					<li>Stratocumuliform</li>
+					<li>Cumuliform</li>
+					<li>Cumulonimbiform</li>
+				</ol>
+			</div><!-- end clouds -->
+			<div id = "wildweather">
+				<h2>Wild Weather</h2>
+				<div id = "weathergallery">
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather1_tn.jpg" alt = "weather1">
+					
+						Dust Storm
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather2_tn.jpg" alt = "weather1">
+					
+						Tornado
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather3_tn.jpg" alt = "weather1">
+					
+						Rain Storm
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather4_tn.jpg" alt = "weather1">
+					
+						Lightning
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather5_tn.jpg" alt = "weather1">
+					
+						Hurricane
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather6_tn.jpg" alt = "weather1">
+					
+						Rain Storm
+					</div><!-- end weatherpic -->
+					
+					
+					<div class = "weatherpic">
+					
+						<img src = "images/weatherpics/weather7_tn.jpg" alt = "weather1">
+					
+						Tornadoes
+					</div><!-- end weatherpic -->
+				</div><!-- end weathergallery -->
+			
+			</div><!-- end wildweather -->
+		</main>
+		
+		<footer>
+			
+			<img src = "images/logos/weathernow_horiz.png" id = "footerimg" alt = "weather now logo">
+			<div id = "socialfooter">
+				<h3>Social</h3>
+				<a href = "http://www.facebook.com"><img src = "images/socialmedia/facebook32.png">Facebook</a><br>
+				<a href = "http://www.twitter.com"><img src = "images/socialmedia/twitter32.png">Twitter</a><br>
+				<a href = "mailto:weather@example.com"><img src = "images/socialmedia/emailat32.png">weather@example.com</a>
+			</div>
+			
+			<div class = "footersection">
+				<h3>Contact Us</h3>
+				Email<br>
+				Phone<br>
+				
+				
+			</div>
+			
+			<div class = "footersection">
+				<h3>Support</h3>
+				FAQs<br>
+				Privacy Policy<br>
+				Terms of Use<br>
+			</div>
+			
+			<div class = "footersection">
+				<h3>Apps</h3>
+				WeatherNow iOS<br>
+				WeatherNow Android<br>
+		
+			</div>
+		
+		
+		</footer>
+	
+	
+	
+	</body>
+</html>

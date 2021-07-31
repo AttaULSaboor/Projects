@@ -1,0 +1,260 @@
+<!-- I, Atta UL Saboor, student number 000395780, certify that all code submitted is my own work
+that I have not copied it from any source. I also certify that I have not allowed my work to be
+copied by others -->
+
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<meta charset="UTF8">
+			<!-- Author: Atta UL Saboor, 000395780-->
+			<title>Sandy and Leslie's Apartment</title>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0">
+			<link rel="stylesheet" type="text/css" href="apartment_layout.css" >
+			<link rel="stylesheet" type="text/css" href="mobile.css" >
+			<style>
+				.container{
+					display:grid;
+					grid-template-columns:530px 460px 300px;
+					grid-template-rows:1fr;
+					grid-gap:15px;
+					margin-left:8em;
+				}
+				h2{
+					background-color:lightskyblue;
+					padding:10px;
+					color:darkblue;
+				}
+				.mediasound{
+					padding-top:40px;
+					padding-bottom:15px;
+				}
+				.audiocontrol{
+					padding:15px;
+				}
+				.aptservices{
+					grid-row:1;
+					grid-column:2;
+				}
+				.tableservice{
+					border-collapse:collapse;
+					border: 1px solid black;
+					margin-top:15px;
+				}
+				th{
+					border:1px solid black;
+					padding-left:5px;
+					padding-right:8px;
+					text-align:left;
+				}
+				td{
+					border:1px solid black;
+					padding-left:5px;
+					padding-right:25px;
+				}
+				.tableservice td.gym{
+					padding-left:5px;
+					padding-bottom:15px;
+					padding-top:15px;
+					text-align:left;
+					padding-right:30px;
+				}
+				.tableservice td.pool{
+					padding-left:5px;
+					padding-bottom:15px;
+					padding-top:15px;
+					text-align:left;
+					padding-right:30px;
+				}
+				.tableservice td.laundry{
+					padding-left:5px;
+					padding-bottom:5px;
+					padding-top:5px;
+					text-align:left;
+					padding-right:30px;
+				}
+				.tableservice th.service{
+					background-color:lightgray;
+					padding:5px 5px 5px;
+					text-align:left;
+				}
+				.tableservice td.people{
+					background-color:#FFFFCC;
+				}
+				.mapimg{
+					margin-top:15px;
+				}
+				.gallery{
+					display:flex;
+					flex-wrap:wrap;
+					justify-content:left;
+				}
+				.container1{
+					margin-left:8em;
+					margin-right:8em;
+				}
+				.gallery img{
+					margin-right:80px;
+					margin-top:10px;
+					margin-left:15px;
+				}
+				figcaption{
+					background-color:#bfb3b3;
+					color:white;
+					padding:5px 5px;
+					margin-right: 80px;
+					margin-top:40px;
+					margin-left:15px;
+				)
+				@media(max-width: 600px){
+					.container{
+						display:grid;
+						grid-template-columns:auto auto auto;
+						grid-template-rows:auto;
+						grid-gap:15px;
+						margin-left:8em;
+					}
+					.form-style{
+						grid-row:1;
+						grid-column:1;
+					}
+					.aptservices{
+						grid-row:2;
+						grid-column:1;
+					}
+					.map{
+						grid-row:3;
+						grid-column:1;
+					}
+					.headimg{
+						display:none;
+					}
+				}
+			</style>
+		</head>
+				<header>
+					<div class="head1">
+						<h1>Sandy and Leslie's Apartment</h1>
+					</div>
+					<div class="head2">
+						<p>Click a room for a detailed view.</p>
+					</div>
+					<div class="headimag">
+						<img src="Images\apartmentfloorplan.jpg" alt="Apartment Floor Plan" usemap="#floormap">
+						<map name="floormap">
+							<area shape="rect" coords="194,3,48,156" alt="Bedroom 1" href="bedroom1.html">
+							<area shape="rect" coords="352,2,206,155" alt="bedroom 2" href="bedroom2.html">
+							<area shape="circle" coords="411,139,45" alt="Dining Room" href="diningroom.html">
+							<area shape="poly" coords="408,193,470,174,529,170,552,394,420,394" alt="Living Room" href="livingroom.html">
+							<area shape="rect" coords="397,233,251,396" alt="Kitchen" href="kitchen.html">
+						</map>
+					</div>
+				</header>
+					<div class="nav">
+						 <a href="apartment.html">Apartment</a>
+						<b>|</b><a href="bedroom1.html">Bedroom 1</a>
+						<b>|</b><a href="bedroom2.html">Bedroom 2</a>
+						<b>|</b><a href="diningroom.html">Dining Room</a>
+						<b>|</b><a href="kitchen.html">Kitchen</a>
+						<b>|</b><a href="livingroom.html">Living Room</a>
+					</div>
+		<body>
+			<div class="container">
+				<div class="form-style">
+					<h2>Survey</h2>
+					</br>
+					<p>How did you find out about this apartment? Check any that apply:</p>
+					</br>
+					<form>
+						<input type="checkbox" name="chkbox" value="1" /> Web search
+						<input type="checkbox" name="chkbox" value="2" /> Friend
+						<input type="checkbox" name="chkbox" value="3" /> Newspaper
+						</br></br>
+						<input type="submit" value="Submit" />
+						<input type="reset" value="Reset Form" />
+					</form>
+					<div class="mediasound">
+						<h2>Welcome Message</h2>
+							<div class="audiocontrol">
+								<audio controls>
+									<source src="Images\apartment.mp3" type="audio/mp3">
+									<a href="Images\apartment.mp3"></a>
+								</audio>
+							</div>
+								<p>Transcript: Hello. Welcome to our apartment. You'll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+					</div>	
+				</div>
+				<div class="aptservices">
+					<h2>Apartment services:</h2>
+					<table class="tableservice">
+						<thead>
+							<tr>
+								<th class="service">Service</th>
+								<th class="service">Day/Hours</th>
+							</tr>
+						</thead>
+							<tbody>
+								<tr class="gym">
+									<td class="gym">Gym</th>
+									<td class="monday" rowspan="2">Monday-Friday 6am-10pm
+															  </br>Saturday 8am-8pm
+															  </br>Sunday 8am-5pm
+									</td>
+								</tr>	
+								<tr class="pool">
+									<td class="pool">Pool</th>
+								</tr>
+								<tr class="Lundry">
+									<td class="laundry">Laundry</th>
+									<td class="days">24/7</td>
+								</tr>
+								<tr class="people">
+									<td class="people" colspan="2">Please do not allow people you do not know to use these facilities.</th>
+								</tr>
+							</tbody>
+					</table>
+				</div>
+				<div class="map">
+					<h2>Location</h2>
+					<div class="mapimg">
+						<img src="Images\location.png" alt="MAP" class="locmap" />
+					</div>
+				</div>
+			</div>	
+				<div class="container1">
+					<h2 class="gal">Gallery</h2>
+						<div class="gallery">
+							<div class="flexitem1"><figure>
+								<figcaption>Balcony</figcaption>
+								<img src="images/thumbnails/balcony_sm.jpg" alt="balcony">
+							</figure></div>
+							<div class="flexitem2"><figure>
+								<figcaption>Bathroom</figcaption>
+								<img src="images/thumbnails/bathroom_sm.jpg" alt="balcony">
+							</figure></div>
+							<div class="flexitem3"><figure>
+								<figcaption>Bedroom</figcaption>
+								<img src="images/thumbnails/bedroom_sm.jpg" alt="Bedroom">
+							</figure></div>
+							<div class="flexitem4"><figure>
+								<figcaption>Dining Room</figcaption>
+								<img src="images/thumbnails/diningroom_sm.jpg" alt="Diningroom">
+							</figure></div>
+							<div class="flexitem5"><figure>
+								<figcaption>Kitchen</figcaption>
+								<img src="images/thumbnails/kitchen_sm.jpg" alt="Kitchen">
+							</figure></div>
+							<div class="flexitem6"><figure>
+								<figcaption>Living Room</figcaption>
+								<img src="images/thumbnails/livingroom_sm.jpg" alt="Livingroom">
+							</figure></div>
+						</div>
+				</div>
+			
+		</body>  
+			<footer class="footer">	
+				<p>For more information contact: <a href="mailto:apartment@example.com">apartment@example.com</a></p>
+				<p>©Sandy and Leslie 2020</p>
+			</footer>
+			
+		
+	</html>
