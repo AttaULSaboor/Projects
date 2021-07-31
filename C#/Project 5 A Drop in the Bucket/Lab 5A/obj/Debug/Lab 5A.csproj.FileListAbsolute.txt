@@ -1,0 +1,20 @@
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\bin\Debug\Lab 5A.exe.config
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\bin\Debug\Lab 5A.exe
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\bin\Debug\Lab 5A.pdb
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csprojAssemblyReference.cache
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab_5A.Form1.resources
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab_5A.Properties.Resources.resources
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csproj.GenerateResource.cache
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csproj.CoreCompileInputs.cache
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab 5A.exe
+C:\Users\Saboor\source\repos\Lab 5A\Lab 5A\obj\Debug\Lab 5A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\bin\Debug\Lab 5A.exe.config
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\bin\Debug\Lab 5A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\bin\Debug\Lab 5A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csprojAssemblyReference.cache
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab_5A.Form1.resources
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab_5A.Properties.Resources.resources
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csproj.GenerateResource.cache
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab 5A.csproj.CoreCompileInputs.cache
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab 5A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab 5A\Lab 5A\Lab 5A\obj\Debug\Lab 5A.pdb
