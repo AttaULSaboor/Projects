@@ -1,0 +1,75 @@
+/** 
+Name:Atta UL Saboor 
+Student #: 000395780
+Date: 13 November, 2020
+Description: I make a simple general knowledge quiz. First form for student
+registration. In this form ask from user name, age and favorite colors and 
+use in the quiz. Display result in the show result. 
+**/
+
+.container{
+    max-width: 700px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 173, 230);
+    font-size: 1.2em;
+}
+.container1{
+    max-width: 700px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 173, 230);
+    font-size: 1.2em;
+}
+.container2{
+    max-width: 700px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 173, 230);
+    font-size: 1.2em;
+}
+h1 {
+    text-align: center;
+}
+#checklist{
+    background-color:  rgb(204, 173, 230);
+    color: black;
+    padding: 5px;
+}
+input[type=text],
+input[type=number],
+input[type=submit] {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2em;
+    color: black;
+}
+input[type=submit]{
+    color: black;
+    background-color:lightgray;
+    width: auto;
+    margin: auto;
+}
+input,
+#checklist {
+    margin-bottom: 5px;
+}
+input[type=reset]{
+    display: block;
+    width: auto;
+    font-size: 1.2em;
+    background-color: lightgray;
+}

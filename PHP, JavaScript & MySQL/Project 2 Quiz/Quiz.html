@@ -1,0 +1,151 @@
+<!-- 
+Name:Atta UL Saboor 
+Date: 13 November, 2020
+Description: I make a simple general knowledge quiz. First form for student
+registration. In this form ask from user name, age and favorite colors and 
+use in the quiz. Display result in the show result. 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>General Knowledge Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/quiz.js"></script>
+    <link rel="stylesheet"href="css/quiz.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <h1 id='header' class='heading'>Student Registration!!</h1>
+        <form id="registration_form">
+            <label for="studentid">Student Name:</label>
+            <input type="text" id="studentid" placeholder="Enter your name here" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="5" max="30" required>
+            <label for="color">Favorite Colors:</label>
+            <input type="text" id="color" required>
+            <input type="submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div> 
+    <div id="container1" class="container1">
+        <div id="displayName"></div>
+        <div id="displayAge"></div>
+        <div id="displayColor"></div>
+        <h1 id='header' class='heading'>General Knowledge Quiz </h1>
+        <form id="registration_form1">
+            <label for="checklist">1. What is the capital of Canada?</label>
+            <div id="checklist">
+                <div class=q1_opt1>
+                    <input type="radio" id="rb_opt1" value="ottawa" name="q1">
+                    <label for="rb_opt1">Ottawa</label>
+                </div>
+                <div class=q1_opt2>
+                    <input type="radio" id="rb_opt2" value="montreal" name="q1">
+                    <label for="rb_opt2">Montreal</label>
+                </div>
+                <div class=q1_opt3>    
+                    <input type="radio" id="rb_opt3" value="halifax" name="q1"> 
+                    <label for="rb_opt3">Halifax</label>
+                </div>
+                <div class=q1_opt4>
+                    <input type="radio" id="rb_opt4" value="toronto" name="q1">
+                    <label for="rb_opt3">Toronto</label>
+                </div>
+            </div>    
+            <label for="checklist">2. Which are the official languages of Canada?</label>
+            <div id="checklist">
+                <div class=q2_op1>
+                    <input type="radio" id="rb_q2opt1" value="english and spanish" name="q2">
+                    <label for="rb_q2opt1">English and Spanish</label>
+                </div>
+                <div class=q2_op2>
+                    <input type="radio" id="rb_q2opt2" value="spanish and french" name="q2">
+                    <label for="rb_q2opt2">Spanish and French</label>
+                </div>
+                <div class=q2_op3>
+                    <input type="radio" id="rb_q2opt3" value="French and russian" name="q2">
+                    <label for="rb_q2opt3">French and Russian</label>
+                </div>
+                <div class=q2_op4>
+                    <input type="radio" id="rb_q2opt3" value="english and french" name="q2">
+                    <label for="rb_q2opt4">English and French</label>
+                </div>
+            </div>    
+            <label for="checklist">3. What is in the center of Canada's flag?</label>
+            <div id="checklist">
+                <div class=q3_op1>
+                    <input type="radio" id="rb_q3opt1" value="two swords" name="q3">
+                    <label for="rb_q3opt1">Two swords</label>
+                </div>
+                <div class=q3_op2>
+                    <input type="radio" id="rb_q3opt2" value="sun" name="q3">
+                    <label for="rb_q3opt2">Sun</label>
+                </div>
+                <div class=q3_op3>
+                    <input type="radio" id="rb_q3opt3" value="cross" name="q3">
+                    <label for="rb_q3opt3">Cross</label>
+                </div>
+                <div class=q3_op4>
+                    <input type="radio" id="rb_q3opt3" value="maple leaf" name="q3">
+                    <label for="rb_q3opt4">Maple leaf</label>
+                </div>
+            </div>    
+            <label for="checklist">4. Which is the national animal of Canada?</label>
+            <div id="checklist">
+                <div class=q4_op1>
+                    <input type="radio" id="rb_q4opt1" value="elephant" name="q4">
+                    <label for="rb_q4opt1">Elephant</label>
+                </div>
+                <div class=q4_op2>
+                    <input type="radio" id="rb_q4opt2" value="beaver" name="q4">
+                    <label for="rb_q4opt2">Beaver</label>
+                </div>
+                <div class=q4_op3>
+                    <input type="radio" id="rb_q4opt3" value="lion" name="q4">
+                    <label for="rb_q4opt3">Lion</label>
+                </div>
+                <div class=q4_op4>
+                    <input type="radio" id="rb_q4opt3" value="tiger" name="q4">
+                    <label for="rb_q4opt4">tiger</label>
+                </div>
+            </div>    
+            <label for="checklist">5. Which country has larger area than canada?</label>
+            <div id="checklist">
+                <div class=q5_op1>
+                    <input type="radio" id="rb_q5opt1" value="russia" name="q5">
+                    <label for="rb_q5opt1">Russia</label>
+                </div>
+                <div class=q5_op2>
+                    <input type="radio" id="rb_q5opt2" value="china" name="q5"> 
+                    <label for="rb_q5opt2">China</label>
+                </div>
+                <div class=q5_op3>
+                    <input type="radio" id="rb_q5opt3" value="usa" name="q5">
+                    <label for="rb_q5opt3">USA</label>
+                </div>
+                <div class=q5_op4>
+                    <input type="radio" id="rb_q5opt3" value="brazil" name="q5">
+                    <label for="rb_q5opt4">Brazil</label>
+                </div>
+                <input type="submit">    
+                <input type="reset" value="Reset">   
+            </div>
+        </form>
+    </div>
+    <div id="container2" class="container2">
+        <h1 id='header' class='heading'>Show Result</h1>
+        <form id="registration_form2">
+            <div id="q1"></div>
+            <div id="q2"></div>
+            <div id="q3"></div>
+            <div id="q4"></div>
+            <div id="q5"></div>
+            <input type="submit" value="Start Again">
+        </form>
+    </div>  
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Responsive Design With Twitter Bootstrap</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .navigationbar{
+        margin: 10px;
+    }
+    .image{
+        margin: 10px;
+        text-align: center;
+        background-color: white;
+        border: 5px solid black;
+    }
+    .row{  
+        margin: 10px;
+    }
+    .col{
+        font-size: medium;
+        padding: 10px 15px;
+        background:white;
+    }
+    .card-body{
+        border: 5px solid black;
+        margin: 10px;
+    }
+    .embed-responsive-item{
+       padding: 5px;
+       margin: 10px;
+    }
+    @media screen and (max-width: 400px) {
+        .navbar-brand{
+            display: block;
+        }
+        .a{
+            display: block;
+        }
+        .card-body{
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 400px) {
+        .navbar-brand{
+            display: block;
+        }
+        .a{
+            display: block;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="navigationbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Mohawk Desktop</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">Programs</a>
+                <a href="index.html" class="nav-item nav-link">Faculty</a>
+                <a href="index.html" class="nav-item nav-link">Students</a>
+            </div>
+            <form class="form-inline ml-auto">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                <button type="submit" class="btn btn-outline-light">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+<div class="image">
+    <img src="image/mohawk.png" class="img-fluid" alt="Mohawk College Logo">
+</div>
+    <div class="row align-items-center">
+        <div class="col" style = "border: 5px solid #780032" >Study</div>
+        <div class="col"  style = "border: 5px solid #B20437">Learn</div>
+        <div class="col"  style = "border: 5px solid #F48221">Work</div>
+    </div>
+    <div class="card-body">
+        <h2 class="card-title">Disclaimer</h2>
+        <p class="card-text">Mohawk College is not responsible for lost and stolen computer equipment. Please secure all devices while attending classes and labs.</p>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" style = "border: 5px solid black" src="https://www.youtube.com/embed/r7j282kViwE" allowfullscreen></iframe>
+    </div> 
+</body>
+</html>
