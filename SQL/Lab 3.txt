@@ -1,0 +1,98 @@
+Statemant of Authorship - I, Atta UL Saboor, Student number 000395780, certify that this material is my original work.
+NO other person's work has been used without due acknowledgement and I have not made my work available to anyone else.
+
+Sales Table:
+
+Insert Error: String was not recongnized as a valid DateTime.
+
+Master Table:
+
+Delete Error: Violation of PRIMARY KEY constraint 'PK_real_estate_property'.Cannot insert duplicate key in object 'dbo.real_estate_property'. The duplicate key value is (350). The statement has been terminated.
+
+
+SELECT 1 - Show the tables exist
+Database             	Table
+----------------------------	 --------------------
+realestate_agent    	 real_estate_property
+realestate_agent     	sales
+
+(2 rows affected)
+
+
+Completion time: 2020-09-28T15:08:58.3123775-04:00
+
+
+SELECT 2 - Show that the tables have the correct columns
+Table	                       Column               	         Pos         Type                  Length
+-------------------------------   ----------------------------    ----------  --------------------  -----------
+real_estate_property       property_id                   1 	      int                      NULL
+real_estate_property       property_description    2             varchar              25
+real_estate_property       property_type               3             char                   1
+real_estate_property       amount                          4	      money               NULL
+real_estate_property       sales_ytd                       5             money               NULL
+sales                                  sales_id                         1             int                     NULL
+sales                                  sales_date                     2            date                   NULL
+sales                                  amount                          3             money               NULL
+sales                                  property_id                   4             int                      NULL
+
+(9 rows affected)
+
+
+Completion time: 2020-09-28T15:10:11.7593867-04:00
+
+
+SELECT 3 - Show that all the constraints (PK, CK and FK) were set up properly
+Table           	Column               Constraint                          		Type        		Constraint_Details
+--------------------------- 	--------------------   ------------------------------------------------ 	---------------------------	------------------------------------------------
+real_estate_pro 	property_id         PK_real_estate_property             	PRIMARY KEY 	real_estate_pro(property_id)
+sales           	sales_id               PK_sales                            	PRIMARY KEY 	sales(sales_id)
+sales           	property_id         FK_sales_real_estate_property       	FOREIGN KEY 	sales(property_id)
+
+(3 rows affected)
+
+
+Completion time: 2020-09-28T15:23:21.7569139-04:00
+
+
+
+SELECT 4 - Show the Master table data
+property_id property_description      property_type  amount                  sales_ytd
+--------------- -------------------------------- -------------------  ----------------------  --------------------
+150             residential               	      R                       500000.00             1500000.00
+250             commercial                      C                       800000.00             2400000.00
+350             commercial_rental          C                       5000.00                 15000.00
+450             industrial                          I                       2000000.00            6000000.00
+550             land                                  L                       300000.00              300000.00
+
+(5 rows affected)
+
+
+Completion time: 2020-09-28T15:28:55.1940461-04:00
+
+
+SELECT 5 - Show the Sales table data
+sales_id    	sales_date	    amount                property_id
+------------- 	----------------  --------------------- ----------------
+1           	2020-01-03   500000.00           150
+2           	2020-02-01   300000.00           550
+3           	2020-02-15   2000000.00         450
+4           	2020-03-30   500000.00           150
+5           	2020-04-03   5000.00               350
+6           	2020-04-12   300000.00           550
+7           	2020-04-30   5000.00               350
+8           	2020-05-13   300000.00           550
+9           	2020-05-28   2000000.00         450
+10          	2020-06-05   800000.00           250
+11          	2020-06-16   500000.00           150
+12          	2020-07-06   800000.00           250
+13          	2020-08-14   50000.00             350
+14          	2020-09-09   800000.00           250
+15          	2020-09-22   2000000.00         450
+
+(15 rows affected)
+
+
+Completion time: 2020-09-28T15:34:17.9790328-04:00
+
+
+
