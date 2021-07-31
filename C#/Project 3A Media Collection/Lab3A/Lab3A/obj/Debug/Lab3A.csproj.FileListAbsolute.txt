@@ -1,0 +1,21 @@
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\bin\Debug\Lab3A.exe.config
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\bin\Debug\Lab3A.exe
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\bin\Debug\Lab3A.pdb
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\obj\Debug\Lab3A.csprojAssemblyReference.cache
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\obj\Debug\Lab3A.csproj.CoreCompileInputs.cache
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\obj\Debug\Lab3A.exe
+C:\Users\Saboor\source\repos\Lab3A\Lab3A\obj\Debug\Lab3A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.exe.config
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.csprojAssemblyReference.cache
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.csproj.CoreCompileInputs.cache
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.pdb
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.exe.config
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.exe
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\bin\Debug\Lab3A.pdb
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.csprojAssemblyReference.cache
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.csproj.CoreCompileInputs.cache
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.exe
+D:\Semester 4\Website\Projects\C#\Lab3A\Lab3A\Lab3A\obj\Debug\Lab3A.pdb
