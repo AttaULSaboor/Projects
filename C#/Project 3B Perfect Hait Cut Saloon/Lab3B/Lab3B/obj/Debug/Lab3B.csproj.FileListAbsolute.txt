@@ -1,0 +1,30 @@
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.exe.config
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.exe
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.pdb
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csprojAssemblyReference.cache
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.Form1.resources
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.Properties.Resources.resources
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.GenerateResource.cache
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.CoreCompileInputs.cache
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.exe
+C:\Users\Saboor\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.pdb
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.Form1.resources
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.Properties.Resources.resources
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.exe
+C:\Users\Owner\source\repos\Lab3B\Lab3B\obj\Debug\Lab3B.pdb
+C:\Users\Owner\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.exe.config
+C:\Users\Owner\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.exe
+C:\Users\Owner\source\repos\Lab3B\Lab3B\bin\Debug\Lab3B.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\bin\Debug\Lab3B.exe.config
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\bin\Debug\Lab3B.exe
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\bin\Debug\Lab3B.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.csprojAssemblyReference.cache
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.Form1.resources
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.Properties.Resources.resources
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.GenerateResource.cache
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.CoreCompileInputs.cache
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.exe
+D:\Semester 3\Programming in.Net\Labs\Lab3B\Lab3B\Lab3B\obj\Debug\Lab3B.pdb

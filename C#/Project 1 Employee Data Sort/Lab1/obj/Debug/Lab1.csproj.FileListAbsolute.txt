@@ -1,0 +1,14 @@
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\bin\Debug\Lab1.exe.config
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\bin\Debug\Lab1.exe
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\bin\Debug\Lab1.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\obj\Debug\Lab1.exe
+D:\Semester 3\Programming in.Net\Labs\Lab1\Lab1\obj\Debug\Lab1.pdb
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\bin\Debug\Lab1.exe.config
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\bin\Debug\Lab1.exe
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\bin\Debug\Lab1.pdb
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\obj\Debug\Lab1.exe
+D:\Semester 4\Website\Projects\C#\Lab1\Lab1\obj\Debug\Lab1.pdb

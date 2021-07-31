@@ -1,0 +1,21 @@
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\bin\Debug\Lab4A.exe.config
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\bin\Debug\Lab4A.exe
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\bin\Debug\Lab4A.pdb
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\obj\Debug\Lab4A.csprojAssemblyReference.cache
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\obj\Debug\Lab4A.exe
+C:\Users\Saboor\source\repos\Lab4A\Lab4A\obj\Debug\Lab4A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.exe.config
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.pdb
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.csprojAssemblyReference.cache
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.exe
+D:\Semester 3\Programming in.Net\Labs\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.pdb
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.exe.config
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.exe
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\bin\Debug\Lab4A.pdb
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.csprojAssemblyReference.cache
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.exe
+D:\Semester 4\Website\Projects\C#\Lab4A\Lab4A\Lab4A\obj\Debug\Lab4A.pdb
