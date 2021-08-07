@@ -1,6 +1,3 @@
-#I, Atta UL Saboor, student number 000395780, certify that all code submitted is
-#my own Work, that I have not copied it from any other source. I also certify
-#that I have not allowed my work to be copied by others.
 
 # This program compares the effect of driving at different speeds 
 # on your fuel consumption.  The user will enter the distance of 
