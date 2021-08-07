@@ -1,8 +1,5 @@
-/*I, Atta UL Saboor, student number 000395780, certify that this material is my original work.
-No other person's work has been used without due acknowledgment and I have not made my work available to anyone else.*/
 /*******************************************************
 Script: co859.sql
-Author: Atta UL Saboor
 Date: Oct 05, 2020
 Description: Create co859 Database objects for Real Estate Property
 ********************************************************/
