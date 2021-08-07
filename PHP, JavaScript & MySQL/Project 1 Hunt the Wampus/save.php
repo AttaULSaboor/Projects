@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 /**
- * Name: Atta UL Saboor
+ *
  * Date: 23 October, 2020
  * 
  * I create and maintain databse tables listing all the wumpus locations and 
