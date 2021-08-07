@@ -1,6 +1,4 @@
-# I, Atta UL Saboor, Student number 000395780, certify that all code submitted is my;
-# own work that I have not copied it from any other source.
-# I also certify that I have not allowed my work to be copied by others.
+
 #Get Calculate Score
 def calculateScore(labPercent, scorePercent):
     score = 0.00
