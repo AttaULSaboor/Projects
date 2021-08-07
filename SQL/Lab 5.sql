@@ -1,9 +1,6 @@
 /*Script: Lab5.sql
-Name: Atta UL Saboor
 Date: Oct 21st 2020
-I, Atta UL Saboor, Student number 000395780, certify that this material is my original work
-No other person's work has been used without due acknowledgment and I have not 
-made my work available to anyone else.*/
+*/
 
 --Make the CHDB database the current database
 use CHDB;
