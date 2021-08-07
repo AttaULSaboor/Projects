@@ -1,5 +1,4 @@
 /** 
-Name:Atta UL Saboor 
 Date: 13 November, 2020
 Description: I make a simple general knowledge quiz. First form for student
 registration. In this form ask from user name, age and favorite colors and 
