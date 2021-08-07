@@ -1,6 +1,3 @@
-#I, Atta UL Saboor, student number 000395780, certify that all code submitted is my
-#own work, that I have cot copied it from any other source. I also certify that I
-#have not allowed my work to be copied by others.
 
 #Get the value from user for three variable a,b,c
 a=int(input("please enter a variable :"))
