@@ -1,7 +1,7 @@
 <?php
     try {
         $dbh = new PDO(
-            "mysql:host=localhost;dbname=000395780",
+            "mysql:host=localhost;dbname=root",
             "root",
             ""
         );
